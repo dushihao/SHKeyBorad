@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		570A8EFA202345BD00FFB3C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 570A8EF9202345BD00FFB3C4 /* AppDelegate.m */; };
+		570A8EFD202345BD00FFB3C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 570A8EFC202345BD00FFB3C4 /* ViewController.m */; };
+		570A8F00202345BD00FFB3C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 570A8EFE202345BD00FFB3C4 /* Main.storyboard */; };
+		570A8F02202345BD00FFB3C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 570A8F01202345BD00FFB3C4 /* Assets.xcassets */; };
+		570A8F05202345BD00FFB3C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 570A8F03202345BD00FFB3C4 /* LaunchScreen.storyboard */; };
+		570A8F08202345BD00FFB3C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 570A8F07202345BD00FFB3C4 /* main.m */; };
+		570A8F1220236A3E00FFB3C4 /* SHKeyboradFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 570A8F1120236A3E00FFB3C4 /* SHKeyboradFactory.m */; };
+		570A8F1520236B5600FFB3C4 /* SHNumberKeyboradFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 570A8F1420236B5600FFB3C4 /* SHNumberKeyboradFactory.m */; };
+		570A8F1820236DC100FFB3C4 /* SHAlphabetKeyboradFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 570A8F1720236DC100FFB3C4 /* SHAlphabetKeyboradFactory.m */; };
+		570A8F1B20236DE100FFB3C4 /* SHKeyboradView.m in Sources */ = {isa = PBXBuildFile; fileRef = 570A8F1A20236DE100FFB3C4 /* SHKeyboradView.m */; };
+		570A8F1E20236E0000FFB3C4 /* SHNumerberKeyboradView.m in Sources */ = {isa = PBXBuildFile; fileRef = 570A8F1D20236E0000FFB3C4 /* SHNumerberKeyboradView.m */; };
+		570A8F2120236E1B00FFB3C4 /* SHAlphabetKeyboradView.m in Sources */ = {isa = PBXBuildFile; fileRef = 570A8F2020236E1B00FFB3C4 /* SHAlphabetKeyboradView.m */; };
+		57300F0D20245BB800577291 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 57300F0C20245BB800577291 /* UIView+MJExtension.m */; };
+		57300F1120256B7900577291 /* SHKeyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 57300F1020256B7900577291 /* SHKeyButton.m */; };
+		5731BE2A2032B3F500F138F2 /* SHAlphabetKeyboradView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5731BE292032B3F500F138F2 /* SHAlphabetKeyboradView.xib */; };
+		5731BE322032B45A00F138F2 /* TurtleBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 5731BE2E2032B45A00F138F2 /* TurtleBezierPath.m */; };
+		5731BE332032B45A00F138F2 /* CYRKeyboardButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5731BE2F2032B45A00F138F2 /* CYRKeyboardButton.m */; };
+		5731BE342032B45A00F138F2 /* CYRKeyboardButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5731BE302032B45A00F138F2 /* CYRKeyboardButtonView.m */; };
+		57628EA2202AEC210046607F /* UIImage+SHImageColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 57628EA1202AEC210046607F /* UIImage+SHImageColor.m */; };
+		57628EA5202AF4860046607F /* Colours.m in Sources */ = {isa = PBXBuildFile; fileRef = 57628EA3202AF4860046607F /* Colours.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		570A8EF5202345BD00FFB3C4 /* SHKeyBorad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHKeyBorad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		570A8EF8202345BD00FFB3C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		570A8EF9202345BD00FFB3C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		570A8EFB202345BD00FFB3C4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		570A8EFC202345BD00FFB3C4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		570A8EFF202345BD00FFB3C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		570A8F01202345BD00FFB3C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		570A8F04202345BD00FFB3C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		570A8F06202345BD00FFB3C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		570A8F07202345BD00FFB3C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		570A8F1020236A3E00FFB3C4 /* SHKeyboradFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHKeyboradFactory.h; sourceTree = "<group>"; };
+		570A8F1120236A3E00FFB3C4 /* SHKeyboradFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHKeyboradFactory.m; sourceTree = "<group>"; };
+		570A8F1320236B5600FFB3C4 /* SHNumberKeyboradFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHNumberKeyboradFactory.h; sourceTree = "<group>"; };
+		570A8F1420236B5600FFB3C4 /* SHNumberKeyboradFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHNumberKeyboradFactory.m; sourceTree = "<group>"; };
+		570A8F1620236DC100FFB3C4 /* SHAlphabetKeyboradFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHAlphabetKeyboradFactory.h; sourceTree = "<group>"; };
+		570A8F1720236DC100FFB3C4 /* SHAlphabetKeyboradFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHAlphabetKeyboradFactory.m; sourceTree = "<group>"; };
+		570A8F1920236DE100FFB3C4 /* SHKeyboradView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHKeyboradView.h; sourceTree = "<group>"; };
+		570A8F1A20236DE100FFB3C4 /* SHKeyboradView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHKeyboradView.m; sourceTree = "<group>"; };
+		570A8F1C20236E0000FFB3C4 /* SHNumerberKeyboradView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHNumerberKeyboradView.h; sourceTree = "<group>"; };
+		570A8F1D20236E0000FFB3C4 /* SHNumerberKeyboradView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHNumerberKeyboradView.m; sourceTree = "<group>"; };
+		570A8F1F20236E1B00FFB3C4 /* SHAlphabetKeyboradView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHAlphabetKeyboradView.h; sourceTree = "<group>"; };
+		570A8F2020236E1B00FFB3C4 /* SHAlphabetKeyboradView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHAlphabetKeyboradView.m; sourceTree = "<group>"; };
+		57300F0B20245BB800577291 /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
+		57300F0C20245BB800577291 /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
+		57300F0F20256B7900577291 /* SHKeyButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHKeyButton.h; sourceTree = "<group>"; };
+		57300F1020256B7900577291 /* SHKeyButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHKeyButton.m; sourceTree = "<group>"; };
+		5731BE292032B3F500F138F2 /* SHAlphabetKeyboradView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SHAlphabetKeyboradView.xib; sourceTree = "<group>"; };
+		5731BE2C2032B45A00F138F2 /* CYRKeyboardButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYRKeyboardButton.h; sourceTree = "<group>"; };
+		5731BE2D2032B45A00F138F2 /* CYRKeyboardButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYRKeyboardButtonView.h; sourceTree = "<group>"; };
+		5731BE2E2032B45A00F138F2 /* TurtleBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TurtleBezierPath.m; sourceTree = "<group>"; };
+		5731BE2F2032B45A00F138F2 /* CYRKeyboardButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYRKeyboardButton.m; sourceTree = "<group>"; };
+		5731BE302032B45A00F138F2 /* CYRKeyboardButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYRKeyboardButtonView.m; sourceTree = "<group>"; };
+		5731BE312032B45A00F138F2 /* TurtleBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TurtleBezierPath.h; sourceTree = "<group>"; };
+		57628EA0202AEC210046607F /* UIImage+SHImageColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+SHImageColor.h"; sourceTree = "<group>"; };
+		57628EA1202AEC210046607F /* UIImage+SHImageColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SHImageColor.m"; sourceTree = "<group>"; };
+		57628EA3202AF4860046607F /* Colours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Colours.m; sourceTree = "<group>"; };
+		57628EA4202AF4860046607F /* Colours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colours.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		570A8EF2202345BD00FFB3C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		570A8EEC202345BC00FFB3C4 = {
+			isa = PBXGroup;
+			children = (
+				570A8EF7202345BD00FFB3C4 /* SHKeyBorad */,
+				570A8EF6202345BD00FFB3C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		570A8EF6202345BD00FFB3C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				570A8EF5202345BD00FFB3C4 /* SHKeyBorad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		570A8EF7202345BD00FFB3C4 /* SHKeyBorad */ = {
+			isa = PBXGroup;
+			children = (
+				57300F0A20245B8E00577291 /* Tools */,
+				57300F0E20256B4400577291 /* Views */,
+				570A8F0E2023674D00FFB3C4 /* Factories */,
+				570A8EF8202345BD00FFB3C4 /* AppDelegate.h */,
+				570A8EF9202345BD00FFB3C4 /* AppDelegate.m */,
+				570A8EFB202345BD00FFB3C4 /* ViewController.h */,
+				570A8EFC202345BD00FFB3C4 /* ViewController.m */,
+				570A8EFE202345BD00FFB3C4 /* Main.storyboard */,
+				570A8F01202345BD00FFB3C4 /* Assets.xcassets */,
+				570A8F03202345BD00FFB3C4 /* LaunchScreen.storyboard */,
+				570A8F06202345BD00FFB3C4 /* Info.plist */,
+				570A8F07202345BD00FFB3C4 /* main.m */,
+			);
+			path = SHKeyBorad;
+			sourceTree = "<group>";
+		};
+		570A8F0E2023674D00FFB3C4 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				570A8F1020236A3E00FFB3C4 /* SHKeyboradFactory.h */,
+				570A8F1120236A3E00FFB3C4 /* SHKeyboradFactory.m */,
+				570A8F1320236B5600FFB3C4 /* SHNumberKeyboradFactory.h */,
+				570A8F1420236B5600FFB3C4 /* SHNumberKeyboradFactory.m */,
+				570A8F1620236DC100FFB3C4 /* SHAlphabetKeyboradFactory.h */,
+				570A8F1720236DC100FFB3C4 /* SHAlphabetKeyboradFactory.m */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		570A8F0F2023676300FFB3C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				570A8F1920236DE100FFB3C4 /* SHKeyboradView.h */,
+				570A8F1A20236DE100FFB3C4 /* SHKeyboradView.m */,
+				570A8F1C20236E0000FFB3C4 /* SHNumerberKeyboradView.h */,
+				570A8F1D20236E0000FFB3C4 /* SHNumerberKeyboradView.m */,
+				570A8F1F20236E1B00FFB3C4 /* SHAlphabetKeyboradView.h */,
+				570A8F2020236E1B00FFB3C4 /* SHAlphabetKeyboradView.m */,
+				5731BE292032B3F500F138F2 /* SHAlphabetKeyboradView.xib */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		57300F0A20245B8E00577291 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				5731BE2B2032B45A00F138F2 /* CYRKeyboardButton */,
+				57300F0B20245BB800577291 /* UIView+MJExtension.h */,
+				57300F0C20245BB800577291 /* UIView+MJExtension.m */,
+				57628EA0202AEC210046607F /* UIImage+SHImageColor.h */,
+				57628EA1202AEC210046607F /* UIImage+SHImageColor.m */,
+				57628EA4202AF4860046607F /* Colours.h */,
+				57628EA3202AF4860046607F /* Colours.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		57300F0E20256B4400577291 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				570A8F0F2023676300FFB3C4 /* Products */,
+				57300F0F20256B7900577291 /* SHKeyButton.h */,
+				57300F1020256B7900577291 /* SHKeyButton.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5731BE2B2032B45A00F138F2 /* CYRKeyboardButton */ = {
+			isa = PBXGroup;
+			children = (
+				5731BE312032B45A00F138F2 /* TurtleBezierPath.h */,
+				5731BE2E2032B45A00F138F2 /* TurtleBezierPath.m */,
+				5731BE2C2032B45A00F138F2 /* CYRKeyboardButton.h */,
+				5731BE2F2032B45A00F138F2 /* CYRKeyboardButton.m */,
+				5731BE2D2032B45A00F138F2 /* CYRKeyboardButtonView.h */,
+				5731BE302032B45A00F138F2 /* CYRKeyboardButtonView.m */,
+			);
+			name = CYRKeyboardButton;
+			path = "../../../../../Downloads/CustomKeyBoard-master/ICBCKeyboard/CYRKeyboardButton";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		570A8EF4202345BD00FFB3C4 /* SHKeyBorad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 570A8F0B202345BD00FFB3C4 /* Build configuration list for PBXNativeTarget "SHKeyBorad" */;
+			buildPhases = (
+				570A8EF1202345BD00FFB3C4 /* Sources */,
+				570A8EF2202345BD00FFB3C4 /* Frameworks */,
+				570A8EF3202345BD00FFB3C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SHKeyBorad;
+			productName = SHKeyBorad;
+			productReference = 570A8EF5202345BD00FFB3C4 /* SHKeyBorad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		570A8EED202345BC00FFB3C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = hundsun;
+				TargetAttributes = {
+					570A8EF4202345BD00FFB3C4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 570A8EF0202345BC00FFB3C4 /* Build configuration list for PBXProject "SHKeyBorad" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 570A8EEC202345BC00FFB3C4;
+			productRefGroup = 570A8EF6202345BD00FFB3C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				570A8EF4202345BD00FFB3C4 /* SHKeyBorad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		570A8EF3202345BD00FFB3C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5731BE2A2032B3F500F138F2 /* SHAlphabetKeyboradView.xib in Resources */,
+				570A8F05202345BD00FFB3C4 /* LaunchScreen.storyboard in Resources */,
+				570A8F02202345BD00FFB3C4 /* Assets.xcassets in Resources */,
+				570A8F00202345BD00FFB3C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		570A8EF1202345BD00FFB3C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				570A8EFD202345BD00FFB3C4 /* ViewController.m in Sources */,
+				57300F0D20245BB800577291 /* UIView+MJExtension.m in Sources */,
+				570A8F08202345BD00FFB3C4 /* main.m in Sources */,
+				5731BE332032B45A00F138F2 /* CYRKeyboardButton.m in Sources */,
+				570A8F1E20236E0000FFB3C4 /* SHNumerberKeyboradView.m in Sources */,
+				57628EA5202AF4860046607F /* Colours.m in Sources */,
+				570A8F1B20236DE100FFB3C4 /* SHKeyboradView.m in Sources */,
+				570A8F2120236E1B00FFB3C4 /* SHAlphabetKeyboradView.m in Sources */,
+				5731BE342032B45A00F138F2 /* CYRKeyboardButtonView.m in Sources */,
+				5731BE322032B45A00F138F2 /* TurtleBezierPath.m in Sources */,
+				57300F1120256B7900577291 /* SHKeyButton.m in Sources */,
+				570A8F1220236A3E00FFB3C4 /* SHKeyboradFactory.m in Sources */,
+				570A8F1520236B5600FFB3C4 /* SHNumberKeyboradFactory.m in Sources */,
+				570A8EFA202345BD00FFB3C4 /* AppDelegate.m in Sources */,
+				57628EA2202AEC210046607F /* UIImage+SHImageColor.m in Sources */,
+				570A8F1820236DC100FFB3C4 /* SHAlphabetKeyboradFactory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		570A8EFE202345BD00FFB3C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				570A8EFF202345BD00FFB3C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		570A8F03202345BD00FFB3C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				570A8F04202345BD00FFB3C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		570A8F09202345BD00FFB3C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		570A8F0A202345BD00FFB3C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		570A8F0C202345BD00FFB3C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SHKeyBorad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hundsun.SHKeyBorad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		570A8F0D202345BD00FFB3C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SHKeyBorad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hundsun.SHKeyBorad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		570A8EF0202345BC00FFB3C4 /* Build configuration list for PBXProject "SHKeyBorad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				570A8F09202345BD00FFB3C4 /* Debug */,
+				570A8F0A202345BD00FFB3C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		570A8F0B202345BD00FFB3C4 /* Build configuration list for PBXNativeTarget "SHKeyBorad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				570A8F0C202345BD00FFB3C4 /* Debug */,
+				570A8F0D202345BD00FFB3C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 570A8EED202345BC00FFB3C4 /* Project object */;
+}

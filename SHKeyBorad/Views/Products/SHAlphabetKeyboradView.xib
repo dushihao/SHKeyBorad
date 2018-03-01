@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SHAlphabetKeyboradView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="216"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="7N6-1d-PRb">
+                    <rect key="frame" x="0.0" y="11" width="375" height="42"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R0x-EA-Osh" customClass="CYRKeyboardButton">
+                            <rect key="frame" x="3" y="0.0" width="32.5" height="42"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="q">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aGQ-Hx-GzE" customClass="CYRKeyboardButton">
+                            <rect key="frame" x="40.5" y="0.0" width="32.5" height="42"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="w">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vl1-bV-B3Y" customClass="CYRKeyboardButton">
+                            <rect key="frame" x="78" y="0.0" width="32" height="42"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="e">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ffF-S2-B3X" customClass="CYRKeyboardButton">
+                            <rect key="frame" x="115" y="0.0" width="32.5" height="42"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="r">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="asM-h3-GKq" userLabel="t" customClass="CYRKeyboardButton">
+                            <rect key="frame" x="152.5" y="0.0" width="32.5" height="42"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="t">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WX8-nd-LBi" userLabel="y" customClass="CYRKeyboardButton">
+                            <rect key="frame" x="190" y="0.0" width="32.5" height="42"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="y">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KGn-UT-KfW" userLabel="u" customClass="CYRKeyboardButton">
+                            <rect key="frame" x="227.5" y="0.0" width="32.5" height="42"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="u">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vbn-6c-Pac" userLabel="i" customClass="CYRKeyboardButton">
+                            <rect key="frame" x="265" y="0.0" width="32" height="42"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="i">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g5W-Fw-Dc2" userLabel="o" customClass="CYRKeyboardButton">
+                            <rect key="frame" x="302" y="0.0" width="32.5" height="42"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="o">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="En3-Oz-BFd" userLabel="p" customClass="CYRKeyboardButton">
+                            <rect key="frame" x="339.5" y="0.0" width="32.5" height="42"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="p">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="ENg-cT-VOW"/>
+                    </constraints>
+                    <edgeInsets key="layoutMargins" top="0.0" left="3" bottom="0.0" right="3"/>
+                </stackView>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="CRu-q8-SKR">
+                    <rect key="frame" x="0.0" y="64" width="375" height="42"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a8u-z9-s9i" customClass="CYRKeyboardButton">
+                            <rect key="frame" x="20" y="0.0" width="33" height="42"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="a">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d8o-iG-cCr" customClass="CYRKeyboardButton">
+                            <rect key="frame" x="58" y="0.0" width="32.5" height="42"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="s">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C4I-eJ-VPY" userLabel="y" customClass="CYRKeyboardButton">
+                            <rect key="frame" x="95.5" y="0.0" width="33" height="42"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="d">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AuN-in-F6u" customClass="CYRKeyboardButton">
+                            <rect key="frame" x="133.5" y="0.0" width="32.5" height="42"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="f">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y7K-Gx-nfg" userLabel="o" customClass="CYRKeyboardButton">
+                            <rect key="frame" x="171" y="0.0" width="33" height="42"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="g">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PVp-9c-Fgh" customClass="CYRKeyboardButton">
+                            <rect key="frame" x="209" y="0.0" width="32.5" height="42"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="h">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I0f-P3-G8M" userLabel="i" customClass="CYRKeyboardButton">
+                            <rect key="frame" x="246.5" y="0.0" width="33" height="42"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="j">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QXt-kE-5qd" customClass="CYRKeyboardButton">
+                            <rect key="frame" x="284.5" y="0.0" width="32.5" height="42"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="k">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lMp-KM-oaG" userLabel="t" customClass="CYRKeyboardButton">
+                            <rect key="frame" x="322" y="0.0" width="33" height="42"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="l">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="5da-Vt-U4q"/>
+                    </constraints>
+                    <edgeInsets key="layoutMargins" top="0.0" left="20" bottom="0.0" right="20"/>
+                </stackView>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="DtN-9D-vZF">
+                    <rect key="frame" x="0.0" y="117" width="375" height="42"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fU9-qb-HdQ">
+                            <rect key="frame" x="3" y="0.0" width="42" height="42"/>
+                            <color key="backgroundColor" red="0.67843137254901964" green="0.70196078431372544" blue="0.74117647058823533" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="42" id="0x5-ct-bI9"/>
+                            </constraints>
+                            <state key="normal" image="caps lock"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="4"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="caseSwitching:" destination="iN0-l3-epB" eventType="touchUpInside" id="7sk-CS-ypn"/>
+                            </connections>
+                        </button>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="d19-s1-gvB">
+                            <rect key="frame" x="58" y="0.0" width="259" height="42"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oud-0q-jVg" customClass="CYRKeyboardButton">
+                                    <rect key="frame" x="0.0" y="0.0" width="32.5" height="42"/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <state key="normal" title="z">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ekC-Ww-Ft1" customClass="CYRKeyboardButton">
+                                    <rect key="frame" x="37.5" y="0.0" width="33" height="42"/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <state key="normal" title="x">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="48n-82-s9R" customClass="CYRKeyboardButton">
+                                    <rect key="frame" x="75.5" y="0.0" width="32.5" height="42"/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <state key="normal" title="c">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tkL-gJ-4e0" customClass="CYRKeyboardButton">
+                                    <rect key="frame" x="113" y="0.0" width="33" height="42"/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <state key="normal" title="v">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iyt-Ps-FIa" customClass="CYRKeyboardButton">
+                                    <rect key="frame" x="151" y="0.0" width="32.5" height="42"/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <state key="normal" title="b">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mDF-0s-vbt" customClass="CYRKeyboardButton">
+                                    <rect key="frame" x="188.5" y="0.0" width="33" height="42"/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <state key="normal" title="n">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QL9-On-Xpt" customClass="CYRKeyboardButton">
+                                    <rect key="frame" x="226.5" y="0.0" width="32.5" height="42"/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <state key="normal" title="m">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                </button>
+                            </subviews>
+                        </stackView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4PV-Ic-cO6">
+                            <rect key="frame" x="330" y="0.0" width="42" height="42"/>
+                            <color key="backgroundColor" red="0.67843137254901964" green="0.70196078431372544" blue="0.74117647058823533" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="42" id="nAC-IQ-2Am"/>
+                            </constraints>
+                            <state key="normal" image="keyboard_delete"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="4"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="deleteButtonClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="cr5-6i-A9W"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="Jzh-xS-YcZ"/>
+                    </constraints>
+                    <edgeInsets key="layoutMargins" top="0.0" left="3" bottom="0.0" right="3"/>
+                </stackView>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="HMs-Az-NvG">
+                    <rect key="frame" x="0.0" y="170" width="375" height="42"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PZC-9L-9GF">
+                            <rect key="frame" x="3" y="0.0" width="42" height="42"/>
+                            <color key="backgroundColor" red="0.67843137254901964" green="0.70196078431372544" blue="0.74117647058823533" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="42" id="Ldu-c8-69j"/>
+                                <constraint firstAttribute="width" constant="42" id="tOV-hO-P5b"/>
+                            </constraints>
+                            <state key="normal" title="123">
+                                <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="4"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="numberLetterConversion:" destination="iN0-l3-epB" eventType="touchUpInside" id="gHn-ex-z11"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="STA-YC-vR6">
+                            <rect key="frame" x="49" y="0.0" width="42" height="42"/>
+                            <color key="backgroundColor" red="0.67843137254901964" green="0.70196078431372544" blue="0.74117647058823533" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="42" id="2LS-nw-xCi"/>
+                                <constraint firstAttribute="height" constant="42" id="u36-Zz-fPj"/>
+                            </constraints>
+                            <state key="normal" image="keyboard_down"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="4"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="keyboardDown:" destination="iN0-l3-epB" eventType="touchUpInside" id="pSO-AN-dHd"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h6b-5M-5m3">
+                            <rect key="frame" x="95" y="0.0" width="185.5" height="42"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="空格">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="4"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="spaceButtonClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="LLN-oS-yj0"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HLh-UR-FSa">
+                            <rect key="frame" x="284.5" y="0.0" width="87.5" height="42"/>
+                            <color key="backgroundColor" red="0.2627450980392157" green="0.34901960784313724" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="确定">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="4"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="confirmButtonClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="XxR-zh-Hsr"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="HbO-AK-Lvx"/>
+                        <constraint firstItem="STA-YC-vR6" firstAttribute="leading" secondItem="PZC-9L-9GF" secondAttribute="trailing" constant="4" id="kWI-iP-qh8"/>
+                    </constraints>
+                    <edgeInsets key="layoutMargins" top="0.0" left="3" bottom="0.0" right="3"/>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="0.81960784313725488" green="0.83529411764705885" blue="0.85882352941176465" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="HMs-Az-NvG" secondAttribute="trailing" id="DXB-i5-KBH"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="DtN-9D-vZF" secondAttribute="trailing" id="GdO-oY-rGY"/>
+                <constraint firstItem="d19-s1-gvB" firstAttribute="leading" secondItem="d8o-iG-cCr" secondAttribute="leading" id="GmO-U0-h2e"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="7N6-1d-PRb" secondAttribute="trailing" id="OoA-BI-rtb"/>
+                <constraint firstItem="HLh-UR-FSa" firstAttribute="leading" secondItem="QL9-On-Xpt" secondAttribute="leading" id="Oyu-sx-eGI"/>
+                <constraint firstItem="d19-s1-gvB" firstAttribute="trailing" secondItem="QXt-kE-5qd" secondAttribute="trailing" id="Yas-rb-uLm"/>
+                <constraint firstItem="DtN-9D-vZF" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="cBT-0Y-4YI"/>
+                <constraint firstItem="CRu-q8-SKR" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="eaM-ag-TgB"/>
+                <constraint firstItem="7N6-1d-PRb" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="fao-ng-DhF"/>
+                <constraint firstItem="HMs-Az-NvG" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="go8-RR-imr"/>
+                <constraint firstItem="HMs-Az-NvG" firstAttribute="top" secondItem="DtN-9D-vZF" secondAttribute="bottom" constant="11" id="hRM-so-jbu"/>
+                <constraint firstItem="7N6-1d-PRb" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="11" id="jRL-iC-3Yt"/>
+                <constraint firstItem="DtN-9D-vZF" firstAttribute="top" secondItem="CRu-q8-SKR" secondAttribute="bottom" constant="11" id="qJp-F7-Pb6"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="CRu-q8-SKR" secondAttribute="trailing" id="sh2-Bu-2Ha"/>
+                <constraint firstItem="CRu-q8-SKR" firstAttribute="top" secondItem="7N6-1d-PRb" secondAttribute="bottom" constant="11" id="xur-SM-xvt"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outletCollection property="keyButtons" destination="KGn-UT-KfW" id="ymh-W2-1vx"/>
+                <outletCollection property="keyButtons" destination="AuN-in-F6u" id="sqd-bI-FdE"/>
+                <outletCollection property="keyButtons" destination="a8u-z9-s9i" id="jnU-ig-H5d"/>
+                <outletCollection property="keyButtons" destination="lMp-KM-oaG" id="8vE-T9-jey"/>
+                <outletCollection property="keyButtons" destination="QXt-kE-5qd" id="rOw-re-Z4c"/>
+                <outletCollection property="keyButtons" destination="I0f-P3-G8M" id="TUF-7g-a62"/>
+                <outletCollection property="keyButtons" destination="PVp-9c-Fgh" id="2qC-t6-p6q"/>
+                <outletCollection property="keyButtons" destination="Y7K-Gx-nfg" id="Zha-ft-kCS"/>
+                <outletCollection property="keyButtons" destination="C4I-eJ-VPY" id="HqK-he-J9X"/>
+                <outletCollection property="keyButtons" destination="d8o-iG-cCr" id="kOF-IZ-3DS"/>
+                <outletCollection property="keyButtons" destination="ekC-Ww-Ft1" id="NTQ-lB-Cb1"/>
+                <outletCollection property="keyButtons" destination="mDF-0s-vbt" id="soP-lH-zqO"/>
+                <outletCollection property="keyButtons" destination="Iyt-Ps-FIa" id="ica-wk-XWe"/>
+                <outletCollection property="keyButtons" destination="QL9-On-Xpt" id="Yxl-e0-CwT"/>
+                <outletCollection property="keyButtons" destination="tkL-gJ-4e0" id="RKO-kU-b83"/>
+                <outletCollection property="keyButtons" destination="48n-82-s9R" id="Mg3-xk-Z7S"/>
+                <outletCollection property="keyButtons" destination="Oud-0q-jVg" id="t4e-Aq-SQg"/>
+                <outletCollection property="keyButtons" destination="R0x-EA-Osh" id="pSA-fC-pId"/>
+                <outletCollection property="keyButtons" destination="aGQ-Hx-GzE" id="Rgw-nN-vws"/>
+                <outletCollection property="keyButtons" destination="vl1-bV-B3Y" id="Nkk-vY-1bZ"/>
+                <outletCollection property="keyButtons" destination="ffF-S2-B3X" id="waR-kK-1Cx"/>
+                <outletCollection property="keyButtons" destination="asM-h3-GKq" id="ysd-Cb-yc1"/>
+                <outletCollection property="keyButtons" destination="WX8-nd-LBi" id="hza-zm-bVT"/>
+                <outletCollection property="keyButtons" destination="vbn-6c-Pac" id="x55-Tr-4SL"/>
+                <outletCollection property="keyButtons" destination="g5W-Fw-Dc2" id="8Aq-eP-ZZm"/>
+                <outletCollection property="keyButtons" destination="En3-Oz-BFd" id="Ova-XV-oo1"/>
+                <outletCollection property="featuresKeyButtons" destination="fU9-qb-HdQ" id="YK7-Fd-fIl"/>
+                <outletCollection property="featuresKeyButtons" destination="PZC-9L-9GF" id="Mvu-TK-h5n"/>
+                <outletCollection property="featuresKeyButtons" destination="STA-YC-vR6" id="P3s-sT-20h"/>
+                <outletCollection property="featuresKeyButtons" destination="HLh-UR-FSa" id="ovr-Pg-lxs"/>
+                <outletCollection property="featuresKeyButtons" destination="4PV-Ic-cO6" id="5F5-WQ-pLa"/>
+                <outletCollection property="featuresKeyButtons" destination="h6b-5M-5m3" id="4AE-WI-rk7"/>
+            </connections>
+            <point key="canvasLocation" x="37.5" y="6"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="caps lock" width="24" height="24"/>
+        <image name="keyboard_delete" width="24" height="24"/>
+        <image name="keyboard_down" width="24" height="24"/>
+    </resources>
+</document>
