@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57034BCC2047FF800006A99F /* TurtleBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 57034BC82047FF800006A99F /* TurtleBezierPath.m */; };
+		57034BCD2047FF800006A99F /* CYRKeyboardButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 57034BC92047FF800006A99F /* CYRKeyboardButton.m */; };
+		57034BCE2047FF800006A99F /* CYRKeyboardButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57034BCA2047FF800006A99F /* CYRKeyboardButtonView.m */; };
 		570A8EFA202345BD00FFB3C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 570A8EF9202345BD00FFB3C4 /* AppDelegate.m */; };
 		570A8EFD202345BD00FFB3C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 570A8EFC202345BD00FFB3C4 /* ViewController.m */; };
 		570A8F00202345BD00FFB3C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 570A8EFE202345BD00FFB3C4 /* Main.storyboard */; };
@@ -22,14 +25,17 @@
 		57300F0D20245BB800577291 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 57300F0C20245BB800577291 /* UIView+MJExtension.m */; };
 		57300F1120256B7900577291 /* SHKeyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 57300F1020256B7900577291 /* SHKeyButton.m */; };
 		5731BE2A2032B3F500F138F2 /* SHAlphabetKeyboradView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5731BE292032B3F500F138F2 /* SHAlphabetKeyboradView.xib */; };
-		5731BE322032B45A00F138F2 /* TurtleBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 5731BE2E2032B45A00F138F2 /* TurtleBezierPath.m */; };
-		5731BE332032B45A00F138F2 /* CYRKeyboardButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5731BE2F2032B45A00F138F2 /* CYRKeyboardButton.m */; };
-		5731BE342032B45A00F138F2 /* CYRKeyboardButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5731BE302032B45A00F138F2 /* CYRKeyboardButtonView.m */; };
 		57628EA2202AEC210046607F /* UIImage+SHImageColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 57628EA1202AEC210046607F /* UIImage+SHImageColor.m */; };
 		57628EA5202AF4860046607F /* Colours.m in Sources */ = {isa = PBXBuildFile; fileRef = 57628EA3202AF4860046607F /* Colours.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		57034BC62047FF800006A99F /* CYRKeyboardButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYRKeyboardButton.h; sourceTree = "<group>"; };
+		57034BC72047FF800006A99F /* CYRKeyboardButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYRKeyboardButtonView.h; sourceTree = "<group>"; };
+		57034BC82047FF800006A99F /* TurtleBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TurtleBezierPath.m; sourceTree = "<group>"; };
+		57034BC92047FF800006A99F /* CYRKeyboardButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYRKeyboardButton.m; sourceTree = "<group>"; };
+		57034BCA2047FF800006A99F /* CYRKeyboardButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYRKeyboardButtonView.m; sourceTree = "<group>"; };
+		57034BCB2047FF800006A99F /* TurtleBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TurtleBezierPath.h; sourceTree = "<group>"; };
 		570A8EF5202345BD00FFB3C4 /* SHKeyBorad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHKeyBorad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		570A8EF8202345BD00FFB3C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		570A8EF9202345BD00FFB3C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -57,12 +63,6 @@
 		57300F0F20256B7900577291 /* SHKeyButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHKeyButton.h; sourceTree = "<group>"; };
 		57300F1020256B7900577291 /* SHKeyButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHKeyButton.m; sourceTree = "<group>"; };
 		5731BE292032B3F500F138F2 /* SHAlphabetKeyboradView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SHAlphabetKeyboradView.xib; sourceTree = "<group>"; };
-		5731BE2C2032B45A00F138F2 /* CYRKeyboardButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYRKeyboardButton.h; sourceTree = "<group>"; };
-		5731BE2D2032B45A00F138F2 /* CYRKeyboardButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYRKeyboardButtonView.h; sourceTree = "<group>"; };
-		5731BE2E2032B45A00F138F2 /* TurtleBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TurtleBezierPath.m; sourceTree = "<group>"; };
-		5731BE2F2032B45A00F138F2 /* CYRKeyboardButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYRKeyboardButton.m; sourceTree = "<group>"; };
-		5731BE302032B45A00F138F2 /* CYRKeyboardButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYRKeyboardButtonView.m; sourceTree = "<group>"; };
-		5731BE312032B45A00F138F2 /* TurtleBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TurtleBezierPath.h; sourceTree = "<group>"; };
 		57628EA0202AEC210046607F /* UIImage+SHImageColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+SHImageColor.h"; sourceTree = "<group>"; };
 		57628EA1202AEC210046607F /* UIImage+SHImageColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SHImageColor.m"; sourceTree = "<group>"; };
 		57628EA3202AF4860046607F /* Colours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Colours.m; sourceTree = "<group>"; };
@@ -80,6 +80,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57034BC52047FF800006A99F /* CYRKeyboardButton */ = {
+			isa = PBXGroup;
+			children = (
+				57034BC62047FF800006A99F /* CYRKeyboardButton.h */,
+				57034BC72047FF800006A99F /* CYRKeyboardButtonView.h */,
+				57034BC82047FF800006A99F /* TurtleBezierPath.m */,
+				57034BC92047FF800006A99F /* CYRKeyboardButton.m */,
+				57034BCA2047FF800006A99F /* CYRKeyboardButtonView.m */,
+				57034BCB2047FF800006A99F /* TurtleBezierPath.h */,
+			);
+			path = CYRKeyboardButton;
+			sourceTree = "<group>";
+		};
 		570A8EEC202345BC00FFB3C4 = {
 			isa = PBXGroup;
 			children = (
@@ -145,7 +158,7 @@
 		57300F0A20245B8E00577291 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				5731BE2B2032B45A00F138F2 /* CYRKeyboardButton */,
+				57034BC52047FF800006A99F /* CYRKeyboardButton */,
 				57300F0B20245BB800577291 /* UIView+MJExtension.h */,
 				57300F0C20245BB800577291 /* UIView+MJExtension.m */,
 				57628EA0202AEC210046607F /* UIImage+SHImageColor.h */,
@@ -164,20 +177,6 @@
 				57300F1020256B7900577291 /* SHKeyButton.m */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		5731BE2B2032B45A00F138F2 /* CYRKeyboardButton */ = {
-			isa = PBXGroup;
-			children = (
-				5731BE312032B45A00F138F2 /* TurtleBezierPath.h */,
-				5731BE2E2032B45A00F138F2 /* TurtleBezierPath.m */,
-				5731BE2C2032B45A00F138F2 /* CYRKeyboardButton.h */,
-				5731BE2F2032B45A00F138F2 /* CYRKeyboardButton.m */,
-				5731BE2D2032B45A00F138F2 /* CYRKeyboardButtonView.h */,
-				5731BE302032B45A00F138F2 /* CYRKeyboardButtonView.m */,
-			);
-			name = CYRKeyboardButton;
-			path = "../../../../../Downloads/CustomKeyBoard-master/ICBCKeyboard/CYRKeyboardButton";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,13 +254,13 @@
 				570A8EFD202345BD00FFB3C4 /* ViewController.m in Sources */,
 				57300F0D20245BB800577291 /* UIView+MJExtension.m in Sources */,
 				570A8F08202345BD00FFB3C4 /* main.m in Sources */,
-				5731BE332032B45A00F138F2 /* CYRKeyboardButton.m in Sources */,
+				57034BCD2047FF800006A99F /* CYRKeyboardButton.m in Sources */,
 				570A8F1E20236E0000FFB3C4 /* SHNumerberKeyboradView.m in Sources */,
 				57628EA5202AF4860046607F /* Colours.m in Sources */,
 				570A8F1B20236DE100FFB3C4 /* SHKeyboradView.m in Sources */,
 				570A8F2120236E1B00FFB3C4 /* SHAlphabetKeyboradView.m in Sources */,
-				5731BE342032B45A00F138F2 /* CYRKeyboardButtonView.m in Sources */,
-				5731BE322032B45A00F138F2 /* TurtleBezierPath.m in Sources */,
+				57034BCE2047FF800006A99F /* CYRKeyboardButtonView.m in Sources */,
+				57034BCC2047FF800006A99F /* TurtleBezierPath.m in Sources */,
 				57300F1120256B7900577291 /* SHKeyButton.m in Sources */,
 				570A8F1220236A3E00FFB3C4 /* SHKeyboradFactory.m in Sources */,
 				570A8F1520236B5600FFB3C4 /* SHNumberKeyboradFactory.m in Sources */,
